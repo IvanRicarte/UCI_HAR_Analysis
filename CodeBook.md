@@ -16,8 +16,6 @@ The *run_analysis()* function receives the name of the compressed (zip) file as 
     * WALKING_DOWNSTAIRS
     * WALKING_UPSTAIRS
 
-The remaining variables (3 to 81) are the average values for the mean and standard deviation from the data collected from the smartphone sensors, with triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration; triaxial angular velocity from the gyroscope; and a feature vector with time (initiated with *t*) and frequency (initiated wuth *f*) domain variables.
-
 3. tbodyacc-mean-x
 4. tbodyacc-mean-y
 5. tbodyacc-mean-z
@@ -97,3 +95,5 @@ The remaining variables (3 to 81) are the average values for the mean and standa
 79. fbodybodygyrojerkmag-mean
 80. fbodybodygyrojerkmag-std
 81. fbodybodygyrojerkmag-meanfreq
+
+Variables 3 to 81 are the average values for the mean and standard deviation from the data collected from the smartphone sensors, with triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration; triaxial angular velocity from the gyroscope; and a feature vector with time (initiated with *t*) and frequency (initiated wuth *f*) domain variables.
