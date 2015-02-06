@@ -10,4 +10,10 @@ In R, run the script passing the name of the zip file as argument, as in:
 source("run_analysis.R")
 data <- run_analysis("UCI HAR Dataset.zip")
 ```
-The output is a data frame, prepared for analysis according to the principles of Tidy Data (see *Wickham, Hadley: Tidy Data, in Journal of Statistical Software, 59(10), August 2014*).
+The output is a data frame, prepared for analysis according to the principles of Tidy Data (see *Wickham, Hadley: Tidy Data, in Journal of Statistical Software, 59(10), August 2014*), after the application of the following tasks:
+
+1. Merging back the two data sets (randomly separated in test and training sets) into a single data set;
+2. Extracting only the means and standard deviations for each variable;
+3. Combining information on subject and activity with measurements from different files;
+4. Creating appropriate labels for activities and measurements;
+5. Averaging all the measurements for same subject and activity.
