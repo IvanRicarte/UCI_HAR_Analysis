@@ -106,6 +106,7 @@ These signals were used to estimate variables of the feature vector for each pat
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 Variables 3 to 81 are the average values for the mean and standard deviation from these original data. They result from the following processing steps:
+
 1. Merging back the two data sets (randomly separated in test and training sets) into a single data set;
 2. Extracting only the means and standard deviations for each variable;
 3. Combining information on subject and activity with measurements from different files;
